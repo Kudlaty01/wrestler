@@ -1,0 +1,29 @@
+{
+  "name": "qdt01/wrestler",
+  "description": "wRESTler. Knockout the API in 15 classes",
+  "type": "project",
+  "config": {
+    "platform": {
+      "php": "7.2"
+    }
+  },
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.4"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paweł Sola",
+      "email": "pawel.sola@pm.me"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Qdt01\\Wrestler\\": "src/"
+    }
+  }
+}
