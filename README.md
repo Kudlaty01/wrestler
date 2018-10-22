@@ -1,5 +1,6 @@
 # wrestler
-wRESTler - REST client that will knock out a simple API
+wRESTler - REST client that will knock out a simple API\
+<sub>*To be honest it's just a light, but at least working version of <a href="https://github.com/Kudlaty01/agrest-client">agREST</a></sub>
 
 # Usage
 rename `credentials.json.dist` to `credentials.json` and fill up authorization data\
